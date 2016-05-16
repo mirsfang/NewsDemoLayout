@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:id="@+id/headline_ad_title_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="2"
+        android:minLines="2"
+        android:layout_marginRight="15dp"
+        />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+        <ImageView
+            android:id="@+id/headline_ad_image_2_1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            />
+        <ImageView
+            android:id="@+id/headline_ad_image_2_2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:id="@+id/headline_ad_image_2_3"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/headline_ad_discrib_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:maxLines="2"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/material_blue_grey_900"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+</LinearLayout>
